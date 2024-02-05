@@ -8,7 +8,7 @@ body {
     line-height: 1.5;
 }
 
-.top-title {
+.main-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -61,7 +61,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.order {
+.press {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -115,13 +115,13 @@ body {
 .nav-header .logo-header .end-logo-header:focus,
 .menu-header .link:hover,
 .menu-header .link:focus,
-.contacts .link-2:hover,
-.contacts .link-2:focus {
+.contacts .link-second:hover,
+.contacts .link-second:focus {
     color: #404bbf;
 }
 
-.part-first .order:hover,
-.part-first .order:focus {
+.part-first .press:hover,
+.part-first .press:focus {
     background-color: #404BBF;
 }
 
