@@ -40,7 +40,7 @@ body {
     color: #2e2f42;
 }
 
-.link-2 {
+.link-second {
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -49,19 +49,19 @@ body {
     font-style: normal;
 }
 
-.part-1 {
+.part-first {
     background-color: #2e2f42;
 }
 
-.part-3 {
+.part-third {
     background-color: #F4F4FD;
 }
 
-.begin-list-part-3 {
+.list-part-third {
     background-color: #FFFFFF;
 }
 
-.order-service {
+.order {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -116,10 +116,13 @@ body {
 .menu-header .link:hover,
 .menu-header .link:focus,
 .contacts .link-2:hover,
-.contacts .link-2:focus,
-.part-1 .order-service:hover,
-.part-1 .order-service:focus {
+.contacts .link-2:focus {
     color: #404bbf;
+}
+
+.part-first .order:hover,
+.part-first .order:focus {
+    background-color: #404BBF;
 }
 
 .main-text-footer {
