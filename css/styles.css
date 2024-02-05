@@ -1,13 +1,14 @@
 body {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    background-color: #fafafa;
+    background-color: #FFFFFF;
     font-weight: 400;
+    letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
 }
 
-.title-1 {
+.top-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -16,7 +17,7 @@ body {
     color: #fff;
 }
 
-.title-2 {
+.middle-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -26,7 +27,7 @@ body {
     color: #2e2f42;
 }
 
-.title-3 {
+.bottom-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -34,9 +35,46 @@ body {
     color: #2e2f42;
 }
 
+.link {
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.link-2 {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.all-contacts {
+    font-style: normal;
+}
+
+.part-1 {
+    background-color: #2e2f42;
+}
+
+.part-3 {
+    background-color: #F4F4FD;
+}
+
+.begin-list-part-3 {
+    background-color: #FFFFFF;
+}
+
+.order-service {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
 .text-footer {
     color: #f4f4fd;
+    background-color: #2e2f42;
 }
+
 .logo-header,
 .logo-footer,
 .end-logo-footer,
@@ -62,6 +100,11 @@ body {
     color: #4d5ae5;
 }
 
+.text {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
 .text-footer .logo-header .end-logo-footer:hover,
 .text-footer .logo-header .end-logo-footer:focus,
 .text-footer .logo-footer:hover,
@@ -72,7 +115,13 @@ body {
 .nav-header .logo-header .end-logo-header:focus,
 .menu-header .link:hover,
 .menu-header .link:focus,
-.contacts .link:hover,
-.contacts .link:focus {
-    color: orange;
+.contacts .link-2:hover,
+.contacts .link-2:focus,
+.part-1 .order-service:hover,
+.part-1 .order-service:focus {
+    color: #404bbf;
+}
+
+.main-text-footer {
+    letter-spacing: 0.02em;
 }
